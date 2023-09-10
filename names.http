@@ -1,0 +1,24 @@
+### GET all names
+GET http://localhost:3000
+Accept: application/json
+
+### POST create name
+POST http://localhost:3000/name
+Content-Type: application/json
+
+{
+  "name": "jimbo"
+}
+
+### PUT update name
+POST http://localhost:3000/name/1
+Content-Type: application/json
+
+{
+  "name": "Jimbo"
+}
+
+### PUT delete name
+DELETE http://localhost:3000/name/1
+
+
